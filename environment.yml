@@ -1,8 +1,8 @@
 dependencies:
 - python=3.5.2
-- numpy=1.11.1
-- matplotlib=1.5.2
-- scipy=0.18.0
-- jupyter=1.0.0
+- numpy
+- matplotlib
+- scipy
+- jupyter
 - pip:
-  - bruges==0.2.1
+  - bruges
