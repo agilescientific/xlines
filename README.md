@@ -17,8 +17,10 @@ Or to others wanting to set up binders. If you found a way around these problems
 - The file `environment.yml` should be minimalist. The output of `conda env export` did not work for me.
 - You can avoid users having to answer a question about kernels by replacing the `kernelspec` in the notebook JSON with this:
 
+```
     "kernelspec": {
-        "display_name": "Python [conda env:binder]",
-       "language": "python",
-       "name": "conda-env-binder-py"
+      "display_name": "Python [conda env:binder]",
+      "language": "python",
+      "name": "conda-env-binder-py"
     }
+```
