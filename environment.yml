@@ -1,8 +1,8 @@
 dependencies:
-- matplotlib=1.5.3=np111py35_0
-- numpy=1.11.1=py35_blas_openblas_201
-- python=3.5.2=2
-- scipy=0.18.0=np111py35_blas_openblas_202
-- jupyter=1.0.0=py35_3
+- matplotlib=1.5.3
+- numpy=1.11.1
+- python=3.5.2
+- scipy=0.18.0
+- jupyter=1.0.0
 - pip:
   - bruges==0.2.1
