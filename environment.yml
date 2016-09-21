@@ -1,3 +1,6 @@
+name: xlines
+hannels:
+- conda-forge
 dependencies:
 - python=3.5.2
 - numpy
