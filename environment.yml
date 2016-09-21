@@ -4,5 +4,6 @@ dependencies:
 - matplotlib
 - scipy
 - jupyter
+- obspy
 - pip:
   - bruges
