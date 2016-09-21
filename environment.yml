@@ -4,6 +4,6 @@ dependencies:
 - matplotlib
 - scipy
 - jupyter
-- obspy
+- conda-forge::obspy
 - pip:
   - bruges
