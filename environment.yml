@@ -1,5 +1,4 @@
-name: xlines
-hannels:
+channels:
 - conda-forge
 dependencies:
 - python=3.5.2
