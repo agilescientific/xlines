@@ -30,6 +30,7 @@ Hopefully you're already using [Anaconda](https://www.continuum.io/downloads). T
     source activate xlines
 
     # Install obspy and bruges
+    conda config --add channels conda-forge
     conda install obspy
     pip install bruges
     
