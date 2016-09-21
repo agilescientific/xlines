@@ -15,7 +15,26 @@ Click the `launch binder` button to start the interactive notebooks.
 - No semi-colons or line continuation.
 - Lines can be broken for readability, especially sequence items, or function arguments.
 - `import` statements and comments don't count. I'm really interested in the bits of code that do the thing, whatever that is.
+- But we can only import libraries on conda-forge or PyPi.
 - Plotting and other kinds of inspection don't count, unless they're central to the point of the code. They're more just for seeing what you're doing.
+
+
+## Running the notebooks
+
+Hopefully you're already using [Anaconda](https://www.continuum.io/downloads). To make an environment for this notebook, and install `obspy`, you can do this:
+
+    # Make the environment
+    conda create -n xlines anaconda Python=3.5
+    
+    # Start it
+    source activate xlines
+
+    # Install obspy and bruges
+    conda install obspy
+    pip install bruges
+    
+    # cd to directory with the notebook in it, then
+    jupyter notebook
 
 
 ## Technical notes to self
