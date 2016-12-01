@@ -7,5 +7,7 @@ dependencies:
 - scipy
 - jupyter
 - obspy
+- nltk
+- scikit-learn
 - pip:
   - bruges
