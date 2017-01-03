@@ -5,9 +5,11 @@ dependencies:
 - numpy
 - matplotlib
 - scipy
+- pandas
 - jupyter
 - obspy
 - nltk
 - scikit-learn
+- requests
 - pip:
   - bruges
