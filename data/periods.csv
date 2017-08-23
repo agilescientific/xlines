@@ -1,0 +1,14 @@
+name,abbreviation,start,end
+Cambrian,C,541,485.4
+Ordovician,O,485.4,443.8
+Silurian,S,443.8,419.2
+Devonian,D,419.2,358.9
+Mississipian,Miss,358.9,323.2
+Pennsylvanian,Penn,323.2,298.9
+Permian,P,298.9,252.2
+Triassic,Tr,252.2,201.3
+Jurassic,J,201.3,145
+Cretaceous,K,154,66
+Palaeogene,Pg,66,20.03
+Neogene,Ng,23.03,2.58
+Quaternary,Q,2.58,0.0
