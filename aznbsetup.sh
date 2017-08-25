@@ -9,7 +9,8 @@
 
 echo 'proxy servers:
     http: http://webproxy:3128
-    https: http://webproxy:3128' > $HOME/.condarc
+    https: https://webproxy:3128
+' > $HOME/.condarc
 
 # Need to activate environment first
 source /home/nbcommon/anaconda3_410/bin/activate
