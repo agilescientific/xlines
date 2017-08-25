@@ -2,12 +2,11 @@
 
 ## *x* lines of Python
 
-An [Agile](http://www.agilegeoscience.com/) blog series exploring common geosciencey workflows in *x* lines, where ideally *x* &le; 10 but not necessarily, I haven't thought it through properly yet. These will be [Jupyter Notebooks](http://jupyter.org/) running on [binder](http://mybinder.org/).
+An [Agile](http://www.agilegeoscience.com/) blog series exploring common geosciencey workflows in *x* lines, where ideally *x* &le; 10 but not necessarily, I haven't thought it through properly yet. These will be [Jupyter Notebooks](http://jupyter.org/) running on [Azure Notebooks](https://notebooks.azure.com/).
 
-Click the `launch binder` button to start the interactive notebooks.
+Click the `launch azurenb` button to start the interactive Azure Notebooks (thanks to Dino and Paige at Azure for helping with this).
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/agile-geoscience/xlines)
-
+[![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/kwinkunks/libraries/x-lines-7)
 
 ## Terms of engagement
 
@@ -31,24 +30,11 @@ Hopefully you're already using [Anaconda](https://www.continuum.io/downloads). T
 
     # Install obspy and bruges
     conda config --add channels conda-forge
-    conda install obspy
+    conda install obspy -y
+    conda install geopandas -y
+    conda install folium -y
     pip install bruges
     
     # cd to directory with the notebook in it, then
     jupyter notebook
 
-
-## Technical notes to self
-
-Or to others wanting to set up binders. If you found a way around these problems, I'd love to know about it!
-
-- The file `environment.yml` should be minimalist. The output of `conda env export` did not work for me.
-- You can avoid users having to answer a question about kernels by replacing the `kernelspec` in the notebook JSON with this:
-
-```
-    "kernelspec": {
-      "display_name": "Python [conda env:binder]",
-      "language": "python",
-      "name": "conda-env-binder-py"
-    }
-```

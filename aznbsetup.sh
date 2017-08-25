@@ -1,24 +1,20 @@
 #!/bin/bash
 
-# Need to activate environment first
+# Activate environment
 source /home/nbcommon/anaconda3_410/bin/activate
 
+# Set up proxy
+http_proxy=http://webproxy:3128
+https_proxy=http://webproxy:3128
+export http_proxy 
+export https_proxy
+
 # pip
-pip --proxy http://webproxy:3128 install bruges
-pip --proxy http://webproxy:3128 install obspy
-pip --proxy http://webproxy:3128 install geopandas
-pip --proxy http://webproxy:3128 install folium
+pip install bruges
 
 # conda
-# Can't get this to work :(
-
-#echo 'proxy servers:
-#    http: http://webproxy:3128
-#    https: https://webproxy:3128
-#' > $HOME/.condarc
-
-#conda config --add channels conda-forge
-#conda install obspy
-#conda install geopandas
-#conda install folium
+conda config --add channels conda-forge
+conda install obspy -y
+conda install geopandas -y
+conda install folium -y
 
