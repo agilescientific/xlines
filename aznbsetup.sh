@@ -16,5 +16,6 @@ pip install bruges
 conda config --add channels conda-forge
 conda install obspy -y
 conda install geopandas -y
+conda install basemap -y
 conda install folium -y
-
+conda install cartopy -y
