@@ -6,7 +6,7 @@ An [Agile](http://www.agilegeoscience.com/) blog series exploring common geoscie
 
 Click the `launch azurenb` button to start the interactive Azure Notebooks (thanks to Dino and Paige at Azure for helping with this).
 
-[![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/kwinkunks/libraries/x-lines-7)
+[![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/kwinkunks/libraries/xlines)
 
 ## Terms of engagement
 
