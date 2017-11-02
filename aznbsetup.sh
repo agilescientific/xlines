@@ -11,6 +11,7 @@ export https_proxy
 
 # pip
 pip install bruges
+pip install welly
 
 # conda
 conda config --add channels conda-forge
