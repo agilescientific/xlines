@@ -4,9 +4,11 @@
 
 An [Agile](http://www.agilegeoscience.com/) blog series exploring common geosciencey workflows in *x* lines, where ideally *x* &le; 10 but not necessarily, I haven't thought it through properly yet. These will be [Jupyter Notebooks](http://jupyter.org/) running on [Azure Notebooks](https://notebooks.azure.com/).
 
-Click the `launch azurenb` button to start the interactive Azure Notebooks (thanks to Dino and Paige at Azure for helping with this).
+Click the `launch azurenb` button to start the interactive Azure Notebooks (thanks to Dino and Paige at Azure for helping with this, and to Jesper Dramsch for helping me keep it straight).
 
 [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/agile-geoscience/xlines)
+
+If the Notebook asks you which kernel you want to run, select Python 3.
 
 ## Terms of engagement
 
