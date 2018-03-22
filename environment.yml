@@ -5,6 +5,7 @@ dependencies:
   - matplotlib
   - scipy
   - obspy
+  - pandas
   - geopandas
   - basemap
   - folium
