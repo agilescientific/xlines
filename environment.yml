@@ -7,6 +7,7 @@ dependencies:
   - obspy
   - pandas
   - geopandas
+  - scikit-learn
   - basemap
   - folium
   - cartopy
