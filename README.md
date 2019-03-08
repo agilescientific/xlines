@@ -22,21 +22,19 @@ If the Notebook asks you which kernel you want to run, select Python 3.
 
 ## Running the notebooks
 
-Hopefully you're already using [Anaconda](https://www.continuum.io/downloads). To make an environment for this notebook, and install `obspy`, you can do this:
+I recommend [installing miniconda](https://conda.io/en/latest/miniconda.html), or  [Anaconda](https://www.anaconda.com/distribution/). To make an environment for this notebook, download this repo, then you can do this in a terminal (or cmd prompt on Windows):
 
-    # Make the environment
-    conda create -n xlines anaconda Python=3.5
-    
-    # Start it
-    source activate xlines
+    # First, cd to the repo folder you just downloaded.
 
-    # Install obspy and bruges
-    conda config --add channels conda-forge
-    conda install obspy -y
-    conda install geopandas -y
-    conda install folium -y
-    pip install bruges
+    # Make the environment:
+    conda env create -f environment.yml
     
-    # cd to directory with the notebook in it, then
+    # Start it:
+    conda activate xlines
+
+    # Add it to Jupyter's kernels:
+    python -m ipykernel install --user --name xlines
+
+    # Now start Jupyter Notebook:
     jupyter notebook
 

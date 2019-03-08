@@ -1,8 +1,10 @@
+name: xlines
 channels:
   - conda-forge
   - defaults
 dependencies:
   - matplotlib
+  - seaborn
   - scipy
   - obspy
   - pandas
@@ -11,6 +13,8 @@ dependencies:
   - basemap
   - folium
   - cartopy
+  - jupyter
+  - ipykernel
   - pip:
     - bruges
     - welly
