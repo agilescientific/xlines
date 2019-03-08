@@ -2,7 +2,7 @@
 
 ## *x* lines of Python
 
-An [Agile](http://www.agilegeoscience.com/) blog series exploring common geosciencey workflows in *x* lines, where ideally *x* &le; 10 but not necessarily.
+An [Agile](http://www.agilescientific.com/) blog series exploring common geosciencey workflows in *x* lines, where ideally *x* &le; 10 but not necessarily.
 
 ## Run in Binder
 
