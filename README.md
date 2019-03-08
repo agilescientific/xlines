@@ -2,13 +2,15 @@
 
 ## *x* lines of Python
 
-An [Agile](http://www.agilegeoscience.com/) blog series exploring common geosciencey workflows in *x* lines, where ideally *x* &le; 10 but not necessarily, I haven't thought it through properly yet. These will be [Jupyter Notebooks](http://jupyter.org/) running on [Azure Notebooks](https://notebooks.azure.com/).
+An [Agile](http://www.agilegeoscience.com/) blog series exploring common geosciencey workflows in *x* lines, where ideally *x* &le; 10 but not necessarily.
 
-Click the `launch azurenb` button to start the interactive Azure Notebooks (thanks to Dino and Paige at Azure for helping with this, and to Jesper Dramsch for helping me keep it straight).
+## Run in Binder
 
-[![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/agile-geoscience/xlines)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/agile-geoscience/xlines/master?filepath=notebooks)
 
-If the Notebook asks you which kernel you want to run, select Python 3.
+## Run in colaboratory
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/agile-geoscience/xlines)
 
 ## Terms of engagement
 
