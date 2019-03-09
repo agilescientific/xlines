@@ -10,6 +10,7 @@ dependencies:
   - pandas
   - geopandas
   - scikit-learn
+  - verde
   - basemap
   - folium
   - cartopy
