@@ -5,6 +5,7 @@ channels:
 dependencies:
   - matplotlib
   - seaborn
+  - plotly_express
   - scipy
   - obspy
   - pandas
