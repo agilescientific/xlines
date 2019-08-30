@@ -17,6 +17,7 @@ dependencies:
   - jupyter
   - ipykernel
   - pyfive
+  - pillow
   - pint
   - pip
   - pip:
