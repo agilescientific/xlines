@@ -25,3 +25,4 @@ dependencies:
     - bruges
     - welly
     - python-ternary
+    - mplstereonet
